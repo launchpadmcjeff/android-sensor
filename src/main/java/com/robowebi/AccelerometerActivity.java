@@ -131,15 +131,6 @@ public class AccelerometerActivity extends Activity implements
 			}
 			break;
 
-		case Sensor.TYPE_MAGNETIC_FIELD_UNCALIBRATED:
-			Log.d(tag,
-					String.format(
-							"TYPE_MAGNETIC_FIELD_UNCALIBRATED: vendor = %s version = %d",
-							event.sensor.getVendor(), event.sensor.getVersion()));
-			Log.d(tag, String.format("x: %f, y: %f, z: %f", event.values[0],
-					event.values[1], event.values[2]));
-			break;
-
 		case Sensor.TYPE_ORIENTATION:
 			Log.d(tag, String.format(
 					"TYPE_ORIENTATION: vendor = %s version = %d",

@@ -8,8 +8,6 @@
         android:minSdkVersion="10"
         android:targetSdkVersion="19" />
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
     <application
         android:name="SensorApplication"
         android:allowBackup="true"
